@@ -7,6 +7,8 @@ import LightDarkmode from './components/light-darkmode';
 import Loadmore from './components/loadmore';
 import StarRating from './components/star';
 import TreeView from './components/tree';
+import QrCodeGenerator from './components/qr-code-generator';
+import ScrollIndicator from './components/scroll-indicator';
 
 
 function App() {
@@ -18,6 +20,10 @@ function App() {
       <Loadmore />  
       <LightDarkmode /></center>
       <TreeView  menus={menus}/>
+      <br />
+      <QrCodeGenerator />
+
+      <ScrollIndicator url={'https://dummyjson.com/products'} />
     </div>
   );
 }
