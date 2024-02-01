@@ -9,12 +9,13 @@ import StarRating from './components/star';
 import TreeView from './components/tree';
 import QrCodeGenerator from './components/qr-code-generator';
 import ScrollIndicator from './components/scroll-indicator';
+import TabTest from './components/custom-tabs/tab-test';
 
 
 function App() {
   return (
     <div className="App">
-        <Accordian /> 
+         <Accordian /> 
        <center> <StarRating /> 
     <Imageslider  url={'https://picsum.photos/v2/list'} limit={"10"} page={"1"}/>
       <Loadmore />  
@@ -23,7 +24,8 @@ function App() {
       <br />
       <QrCodeGenerator />
 
-      <ScrollIndicator url={'https://dummyjson.com/products'} />
+      <ScrollIndicator url={'https://dummyjson.com/products'} /> 
+      <TabTest />
     </div>
   );
 }
