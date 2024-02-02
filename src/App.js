@@ -17,7 +17,7 @@ import ModalTest from './components/custom-modal-popup/modal-test';
 function App() {
   return (
     <div className="App">
-         {/* <Accordian /> 
+         <Accordian /> 
        <center> <StarRating /> 
     <Imageslider  url={'https://picsum.photos/v2/list'} limit={"10"} page={"1"}/>
       <Loadmore />  
@@ -27,7 +27,7 @@ function App() {
       <QrCodeGenerator />
 
       <ScrollIndicator url={'https://dummyjson.com/products'} /> 
-      <TabTest /> */}
+      <TabTest /> 
       <ModalTest />
     </div>
   );
