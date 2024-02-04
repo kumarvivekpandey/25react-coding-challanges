@@ -8,7 +8,8 @@ export default function SearchAutocomplete() {
         type="text"
         name="searchcomplete"
         placeholder="enter text"
-        value={() => setUser(e.target.value)}
+        value={user}
+       onChange={() => setUser(e.target.value)}
       />
       <p> {user}</p>
     </div>
