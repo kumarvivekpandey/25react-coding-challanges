@@ -5,10 +5,10 @@ export default function SearchAutocomplete() {
 
   const [user, setUser] = useState("");
 
-  async function fetchuser() {
+  async function fetchuser(geturl) {
     try {
       setLoading(true);
-      await fetch("https://jsonplaceholder.typicode.com/users");
+      await fetch(geturl);
       const data = await response.json();
       setUser(data);
       setLoading(false);
