@@ -10,7 +10,7 @@ export default function SearchAutocomplete() {
         placeholder="enter text"
         value={() => setUser(e.target.value)}
       />
-      {user}
+      <p> {user}</p>
     </div>
   );
 }
