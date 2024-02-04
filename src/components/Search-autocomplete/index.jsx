@@ -3,16 +3,20 @@ import { useEffect, useState } from "react";
 export default function SearchAutocomplete() {
   const [loading, setLoading] = useState(false);
 
-  const [user, setUser] = useState("");
+  const [user, setUser] = useState([]);
 
-  async function fetchuser(geturl) {
+  async function fetchuser() {
     try {
       setLoading(true);
-      await fetch(geturl);
+      const response = await fetch(
+        "https://jsonplaceholder.typicode.com/users",
+      );
       const data = await response.json();
       setUser(data);
+      console.log(user);
       setLoading(false);
     } catch (e) {
+      console.log(e)
       setLoading(false);
     }
   }
@@ -27,7 +31,6 @@ export default function SearchAutocomplete() {
         name="searchcomplete"
         placeholder="enter text"
         value={user}
-        // onChange={(e) => setUser(e.target.value)}
       />
     </div>
   );

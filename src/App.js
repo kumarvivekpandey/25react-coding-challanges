@@ -35,7 +35,7 @@ function App() {
       <ScrollIndicator url={"https://dummyjson.com/products"} />
       <TabTest />
       <ModalTest />
-      <SearchAutocomplete url={"https://jsonplaceholder.typicode.com/users"} />
+      <SearchAutocomplete  />
     </div>
   );
 }
