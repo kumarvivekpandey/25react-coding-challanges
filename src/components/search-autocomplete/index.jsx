@@ -61,6 +61,8 @@ export default function SearchAutocomplete() {
 
     return (
         <div className="container">
+            <h1>Search Auto Complete</h1>
+            <br />
            
 
             {

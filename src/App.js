@@ -17,7 +17,7 @@ import SearchAutocomplete from './components/search-autocomplete';
 function App() {
   return (
     <div className="App">
-         {/* <Accordian /> 
+         <Accordian /> 
        <center> <StarRating /> 
     <Imageslider  url={'https://picsum.photos/v2/list'} limit={"10"} page={"1"} />
       <Loadmore />  
@@ -28,8 +28,8 @@ function App() {
 
       <ScrollIndicator url={'https://dummyjson.com/products'} /> 
       <TabTest /> 
-      <ModalTest /> */}
-      <SearchAutocomplete />
+    <center>  <ModalTest /> 
+      <SearchAutocomplete /></center>
     </div>
   );
 }
