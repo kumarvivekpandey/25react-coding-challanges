@@ -11,7 +11,6 @@ import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tab-test";
 import Modal from "./components/custom-modal-popup/modal";
 import ModalTest from "./components/custom-modal-popup/modal-test";
-import SearchAutocomplete from "./components/Search-autocomplete";
 
 function App() {
   return (
@@ -35,7 +34,7 @@ function App() {
       <ScrollIndicator url={"https://dummyjson.com/products"} />
       <TabTest />
       <ModalTest />
-      <SearchAutocomplete  />
+      
     </div>
   );
 }
