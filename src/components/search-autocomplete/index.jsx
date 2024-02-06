@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Suggestions from "./suggestion";
-
+import './styles.css'
 export default function SearchAutocomplete() {
     const [loading, setLoading] = useState(false);
     const [users, setUsers] = useState([]);

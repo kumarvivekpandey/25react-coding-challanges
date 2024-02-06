@@ -12,9 +12,11 @@ import ScrollIndicator from './components/scroll-indicator';
 import TabTest from './components/custom-tabs/tab-test';
 import ModalTest from './components/custom-modal-popup/modal-test';
 import SearchAutocomplete from './components/search-autocomplete';
+import TicTacToe from './components/Tic-tac-toe';
 
 
 function App() {
+  
   return (
     <div className="App">
          <Accordian /> 
@@ -30,6 +32,7 @@ function App() {
       <TabTest /> 
     <center>  <ModalTest /> 
       <SearchAutocomplete /></center>
+      <TicTacToe />
     </div>
   );
 }
