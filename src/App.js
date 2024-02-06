@@ -13,6 +13,7 @@ import TabTest from './components/custom-tabs/tab-test';
 import ModalTest from './components/custom-modal-popup/modal-test';
 import SearchAutocomplete from './components/search-autocomplete';
 import TicTacToe from './components/Tic-tac-toe';
+import UseFetchHook from './components/use-fetch/test';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
     <center>  <ModalTest /> 
       <SearchAutocomplete /></center>
       <TicTacToe />
+      <center><UseFetchHook /></center>
     </div>
   );
 }
