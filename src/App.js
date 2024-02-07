@@ -14,6 +14,7 @@ import ModalTest from './components/custom-modal-popup/modal-test';
 import SearchAutocomplete from './components/search-autocomplete';
 import TicTacToe from './components/Tic-tac-toe';
 import UseFetchHook from './components/use-fetch/test';
+import ScrollTopBottom from './components/scrolltotopand bottom';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <SearchAutocomplete /></center>
       <TicTacToe />
       <center><UseFetchHook /></center>
+      <ScrollTopBottom />
     </div>
   );
 }
