@@ -42,9 +42,10 @@ export default function Weather(){
 
     return(
         <div className="containerr">
+            <div className="search-engine">
 <input type="text" name="search" value={search} placeholder="Enter Place to search" onChange={(e)=>setSearch(e.target.value)}/>
 
-<button onClick={handleSearch}>Search</button>
+<button onClick={handleSearch}>Search</button></div>
 {loading ? (
         <div className="loading">Loading...</div>
       ) : (
