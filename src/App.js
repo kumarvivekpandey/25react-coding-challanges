@@ -15,13 +15,14 @@ import SearchAutocomplete from './components/search-autocomplete';
 import TicTacToe from './components/Tic-tac-toe';
 import UseFetchHook from './components/use-fetch/test';
 import ScrollTopBottom from './components/scrolltotopand bottom';
+import Weather from './components/weatherapp';
 
 
 function App() {
   
   return (
     <div className="App">
-         <Accordian /> 
+         {/* <Accordian /> 
        <center> <StarRating /> 
     <Imageslider  url={'https://picsum.photos/v2/list'} limit={"10"} page={"1"} />
       <Loadmore />  
@@ -36,7 +37,9 @@ function App() {
       <SearchAutocomplete /></center>
       <TicTacToe />
       <center><UseFetchHook /></center>
-      <ScrollTopBottom />
+      <ScrollTopBottom /> */}
+
+      <Weather />
     </div>
   );
 }
