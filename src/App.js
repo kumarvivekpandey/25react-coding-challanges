@@ -22,7 +22,7 @@ function App() {
   
   return (
     <div className="App">
-         {/* <Accordian /> 
+          <Accordian /> 
        <center> <StarRating /> 
     <Imageslider  url={'https://picsum.photos/v2/list'} limit={"10"} page={"1"} />
       <Loadmore />  
@@ -37,7 +37,7 @@ function App() {
       <SearchAutocomplete /></center>
       <TicTacToe />
       <center><UseFetchHook /></center>
-      <ScrollTopBottom /> */}
+      <ScrollTopBottom /> 
 
       <Weather />
     </div>
