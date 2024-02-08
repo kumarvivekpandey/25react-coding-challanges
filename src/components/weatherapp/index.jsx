@@ -4,7 +4,7 @@ import './style.css';
 export default function Weather(){
     const[search,setSearch]= useState('');
     const[loading,setLoading]=useState(false)
-    const[wdata,setWdata] = useState('')
+    const[wdata,setWdata] = useState(null)
 
     async function fetchdata (param){
         try{
