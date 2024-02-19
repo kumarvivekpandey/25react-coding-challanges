@@ -16,6 +16,7 @@ import TicTacToe from './components/Tic-tac-toe';
 import UseFetchHook from './components/use-fetch/test';
 import ScrollTopBottom from './components/scrolltotopand bottom';
 import Weather from './components/weatherapp';
+import Countdown from './components/countdown';
 
 
 function App() {
@@ -39,7 +40,8 @@ function App() {
       <center><UseFetchHook /></center>
       <ScrollTopBottom /> 
 
-      <Weather />
+      <Weather /> 
+      <Countdown />
     </div>
   );
 }
